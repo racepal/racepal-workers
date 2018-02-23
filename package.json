@@ -1,0 +1,42 @@
+{
+  "name": "racepal-workers",
+  "version": "1.0.0",
+  "description": "fetches race data via ftp",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register -t 20000",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/racepal/racepal-workers.git"
+  },
+  "keywords": [
+    "racepal",
+    "workers"
+  ],
+  "author": "Jon Kolman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/racepal/racepal-worlers/issues"
+  },
+  "homepage": "https://github.com/racepal/racepal-workers#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
+    "chai": "^3.5.0",
+    "dotenv": "^5.0.0",
+    "mocha": "^3.4.1"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "bluebird": "^3.5.0",
+    "firebase-admin": "^5.0.1",
+    "ftp": "^0.3.10",
+    "mocha": "^3.4.2",
+    "moment": "^2.18.1",
+    "superagent": "^3.5.2",
+    "superagent-bluebird-promise": "^4.2.0"
+  }
+}
